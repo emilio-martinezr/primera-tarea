@@ -1,0 +1,15 @@
+{
+  "name": "video_programado",
+  "version": "1.0.0",
+  "description": "Aplicacion que permite crear un video programado",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andruth",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-uglify": "^4.0.1"
+  }
+}
