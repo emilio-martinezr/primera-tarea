@@ -1,0 +1,99 @@
+section {
+  width: 720px;
+  height: 1280px;
+  text-align: center;
+}
+
+#splash {
+  background: rgb(127, 129, 129);
+}
+
+#home {
+  background: OrangeRed;
+}
+
+#juego {
+  background: Violet;
+}
+
+#instrucciones {
+  background: YellowGreen;
+}
+
+#creditos {
+  background: DeepSkyBlue;
+}
+
+#instrucciones p {
+  margin: 25px;
+  text-align: left;
+}
+
+.boton {
+  background-color: Navy;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.volver {
+  margin-left: -300px;
+  line-height: 50px;
+}
+
+.botonhome {
+  display:inline-block;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: 30px;
+  background-color: #fff;
+  text-decoration:none;
+  width: 300px;
+  height: 100px;
+}
+
+#logoprincipal{
+  width: 500px;
+  height: 500px;
+}
+
+.contenedorimg{
+  overflow:hidden;
+  width: 450px;
+  margin-left:auto;
+  margin-right: auto;
+}
+.imagen{
+  width:200px;
+  height: 200px;
+  float:left;
+  margin:5px;
+}
+.botonjugar{
+  padding: 10px 10px 10px 10px;
+}
+.btn-primary
+{
+  background-color: aquamarine;
+  padding: 10px 42px 10px 42px;
+  border-radius: 3px;
+  font-size: 30px;
+  margin-top: 100px;
+  
+}
+.btn-secondary
+{
+  background-color: aquamarine;
+  padding: 10px 20px 10px 20px;
+  border-radius: 3px;
+  font-size: 30px;
+  
+}
+.btn-success
+{
+  background-color: aquamarine;
+  padding: 10px 32px 10px 32px;
+  border-radius: 3px;
+  font-size: 30px;
+  
+}
