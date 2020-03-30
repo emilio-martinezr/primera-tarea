@@ -3,14 +3,14 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Adquiriendo elementos HTML
     //Botones
-    let btnJuego = document.getElementById("btn-juego");
-    let btnBonificaciones = document.getElementById("btn-bonificaciones");
-    let btnAcercaDe = document.getElementById("btn-acerca-de");
+    var btnJuego = document.getElementById("btn-juego");
+    var btnBonificaciones = document.getElementById("btn-bonificaciones");
+    var btnAcercaDe = document.getElementById("btn-acerca-de");
 
     //Contenidos
-    let divJuego = document.getElementById("juego");
-    let divBonificaciones = document.getElementById("bonificaciones");
-    let divAcercaDe = document.getElementById("acerca-de");
+    var divJuego = document.getElementById("juego");
+    var divBonificaciones = document.getElementById("bonificaciones");
+    var divAcercaDe = document.getElementById("acerca-de");
 
     btnJuego.onclick = function (evento) {
         divJuego.classList.add('visible');
