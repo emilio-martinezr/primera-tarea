@@ -1,99 +1,139 @@
-section {
-  width: 720px;
-  height: 1280px;
+body {
+  background-color: #16A085;
+  font-family: 'Exo 2', sans-serif;
+}
+
+h1 {
   text-align: center;
+  font-size: 80px;
+  padding-bottom: 1cm;
 }
 
-#splash {
-  background: rgb(127, 129, 129);
-}
-
-#home {
-  background: OrangeRed;
-}
-
-#juego {
-  background: Violet;
-}
-
-#instrucciones {
-  background: YellowGreen;
-}
-
-#creditos {
-  background: DeepSkyBlue;
-}
-
-#instrucciones p {
-  margin: 25px;
-  text-align: left;
-}
-
-.boton {
-  background-color: Navy;
-  color: white;
-  padding: 10px;
+#vinculo-cssBattle {
   text-decoration: none;
 }
 
-.volver {
-  margin-left: -300px;
-  line-height: 50px;
-}
-
-.botonhome {
-  display:inline-block;
-  border: 1px solid black;
+nav {
+  background: salmon;
   padding: 10px;
-  font-size: 30px;
-  background-color: #fff;
-  text-decoration:none;
-  width: 300px;
-  height: 100px;
 }
 
-#logoprincipal{
-  width: 500px;
-  height: 500px;
+.menu-nav {
+  display: inline-block;
+  background: orangered;
+  color: white;
+  padding: 10px 30px 10px 10px;
+  text-decoration: none;
 }
 
-.contenedorimg{
-  overflow:hidden;
-  width: 450px;
-  margin-left:auto;
-  margin-right: auto;
+.menu-nav:hover {
+  background: red;
 }
-.imagen{
-  width:200px;
-  height: 200px;
-  float:left;
-  margin:5px;
+
+footer {
+  padding-top: 1cm;
 }
-.botonjugar{
-  padding: 10px 10px 10px 10px;
-}
-.btn-primary
-{
-  background-color: aquamarine;
-  padding: 10px 42px 10px 42px;
+
+#back {
+  font-size: 20px;
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  width: auto;
+  background-color: #F39C12;
   border-radius: 3px;
-  font-size: 30px;
-  margin-top: 100px;
-  
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  bottom: 20px;
 }
-.btn-secondary
-{
-  background-color: aquamarine;
-  padding: 10px 20px 10px 20px;
-  border-radius: 3px;
-  font-size: 30px;
-  
+
+#back:hover {
+  background-color: #0E6655;
+  color: white;
 }
-.btn-success
-{
-  background-color: aquamarine;
-  padding: 10px 32px 10px 32px;
+
+/*busqueda*/
+#miBusqueda {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16A085;
+}
+
+ul {
+  font-size: 20px;
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  width: 400px;
+  background-color: #F39C12;
   border-radius: 3px;
-  font-size: 30px;
-  
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change the link color on hover */
+li a:hover {
+  background-color: #0E6655;
+  color: white;
+}
+
+#titulo {
+  font-family: 'Geo', sans-serif;
+  text-align: center;
+  font-size: 100px;
+  ;
+}
+
+a {
+  font-family: 'Exo 2', sans-serif;
+}
+
+/* css about me */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#acerca-de {
+  display: none;
+
+}
+
+#juego {
+  display: none;
+}
+
+#bonificaciones {
+  display: none;
+}
+
+#bonificaciones.visible, #juego.visible , #acerca-de.visible  {
+  display: block;
 }
